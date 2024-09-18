@@ -50,11 +50,11 @@ The /stream route continuously fetches data from a third-party weather API and p
 A new data point is fetched every second, and the client receives the latest weather information without needing to refresh the page.
 
 Future Improvements:
-Add additional endpoints to fetch specific weather data (e.g., by city, country).
-Implement caching to reduce the number of API requests.
-Add error handling for failed API requests or connection timeouts.
-Frontend to make the real time data more presentable 
+1) Add additional endpoints to fetch specific weather data (e.g., by city, country).
+2) Implement caching to reduce the number of API requests.
+3) Add error handling for failed API requests or connection timeouts.
+4) Frontend to make the real time data more presentable 
 
-License
+**License
 This project is licensed under the MIT License.
-
+**
