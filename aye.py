@@ -8,7 +8,7 @@ app = Flask(__name__)
 api = Api(app)
 
 # Your API Details 
-api_service = APIService("http://api.weatherapi.com/v1", "YOUR API KEY")
+api_service = APIService("OPENSOURCE WEATHER.COM", "YOUR API KEY")
 
 @app.route('/')
 def hello():
